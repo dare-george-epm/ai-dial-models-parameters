@@ -1,10 +1,10 @@
 import json
 import os
-
 import requests
-
 from task.models.message import Message
 from task.models.role import Role
+from dotenv import load_dotenv
+load_dotenv()
 
 
 class DialClient:

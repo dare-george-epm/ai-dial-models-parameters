@@ -12,6 +12,9 @@ from task.app.main import run
 
 run(
     # TODO:
+    deployment_name='gpt-4o',
+    n = 3
+    
     #  1. Provide `deployment_name` with model from the list above👆
     #  2. Use `n` parameter with value in range from 1 to 5!
 )
